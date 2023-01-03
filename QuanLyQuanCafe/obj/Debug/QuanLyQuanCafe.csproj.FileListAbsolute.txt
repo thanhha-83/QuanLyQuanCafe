@@ -9,3 +9,6 @@ D:\Projects\Training-CSharp\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCa
 D:\Projects\Training-CSharp\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.csproj.CoreCompileInputs.cache
 D:\Projects\Training-CSharp\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.exe
 D:\Projects\Training-CSharp\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.pdb
+D:\Projects\Training-CSharp\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.TableManager.resources
+D:\Projects\Training-CSharp\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.AccountProfile.resources
+D:\Projects\Training-CSharp\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.Admin.resources

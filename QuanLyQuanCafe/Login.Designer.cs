@@ -109,12 +109,13 @@
             // 
             // btnLogin
             // 
-            this.btnLogin.Location = new System.Drawing.Point(266, 144);
+            this.btnLogin.Location = new System.Drawing.Point(275, 144);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(75, 23);
             this.btnLogin.TabIndex = 3;
             this.btnLogin.Text = "Đăng nhập";
             this.btnLogin.UseVisualStyleBackColor = true;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // btnExit
             // 
@@ -124,16 +125,20 @@
             this.btnExit.TabIndex = 4;
             this.btnExit.Text = "Thoát";
             this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // fLogin
             // 
+            this.AcceptButton = this.btnLogin;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.CancelButton = this.btnExit;
             this.ClientSize = new System.Drawing.Size(480, 204);
             this.Controls.Add(this.panel1);
             this.Name = "fLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Đăng nhập";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.fLogin_FormClosing);
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
